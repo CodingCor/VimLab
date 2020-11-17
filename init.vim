@@ -21,6 +21,8 @@ highlight ColorColumn ctermbg=lightgrey guibg=lightgrey
 
 set exrc
 
+set splitbelow
+set splitright
 " Plugins
 call plug#begin('~/.config/nvim/plugged')
 Plug 'phanviet/vim-monokai-pro'
