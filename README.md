@@ -1,6 +1,11 @@
 # VimLab
 A simple Neovim Configuration i use for editing and programming.
 
+## Screenshots
+
+[Vim-Startup](./docs/vim-startup.png)
+[Vim-Busy](./docs/vim-busy.png)
+
 ## Keybinding
 
 The leader key is set to <space>

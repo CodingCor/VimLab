@@ -1,8 +1,8 @@
 nnoremap <space> <Nop>
 let mapleader = " "
 " Explore
-nnoremap <leader>v :Vexplore <CR>
-nnoremap <leader>e :Explore <CR>
+nnoremap <leader>v :vsplit <bar> :Explore<CR>
+nnoremap <leader>e :Explore <CR:>
 "Buffer Movement
 nnoremap <leader>n :bn <CR>
 nnoremap <leader>p :bp <CR>
