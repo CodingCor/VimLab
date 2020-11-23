@@ -7,6 +7,7 @@ let g:startify_lists = [
 let g:startify_bookmarks = [
             \ { 'v': '~/.config/nvim/init.vim' },
             \ { 'f': '~/.config/fish/config.fish' },
+            \ { 's': '~/.config/scripts' },
             \ ]
 let g:startify_custom_header = [
         \ '   _  __     _      ',
