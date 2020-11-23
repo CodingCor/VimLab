@@ -36,6 +36,8 @@ set timeoutlen=500
 set formatoptions-=cro
 set clipboard=unnamedplus
 
+set exrc
+
 au! BufWritePost $MYVIMRC source %
 
 " Key Mappings
