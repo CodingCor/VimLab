@@ -13,10 +13,10 @@ The leader key is set to <space>
 |Key|Command|
 |---|---|
 |leader+e|Explore|
-|leader+v|Explore vertical Split|
-|leader+(n,p)|Next or Previos Buffer|
-|leader+(h, j, k, l)|:wincmd (h, j, k, l)
 |leader+t|Open a Terminal|
+|tab;shift-tab|circle buffers|
+|Ctrl-c|Escape|
+|Ctrl-(h, j, k, l)|Window Movement|
 
 ## Creating a Project
 For managing projects vim-startify was used. To create a project workspace follow these steps:
