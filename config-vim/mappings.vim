@@ -27,6 +27,7 @@ vnoremap < <gv
 vnoremap > >gv
 
 " Better window navigation
+nnoremap <C-q> :bd<CR>
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
