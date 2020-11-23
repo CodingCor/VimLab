@@ -34,3 +34,8 @@ nnoremap <C-l> <C-w>l
 
 " Explorer
 nnoremap <leader>e :CocCommand explorer<CR>
+
+" Terminal
+nnoremap <leader>t :10split term://fish <CR> :setlocal nonumber norelativenumber <CR>i 
+tnoremap <ESC> <C-\><C-n>
+tnoremap <leader>t <C-\><C-n>:q <Cr>
