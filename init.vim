@@ -54,6 +54,7 @@ Plug 'tpope/vim-rhubarb'
 
 Plug 'mhinz/vim-startify'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'ryanoasis/vim-devicons'
 call plug#end()
 
 " PlugIns Configs
