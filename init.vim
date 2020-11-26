@@ -37,16 +37,19 @@ set formatoptions-=cro
 set clipboard=unnamedplus
 
 set exrc
-
+set termguicolors
 au! BufWritePost $MYVIMRC source %
 
 " Key Mappings
 source ~/.config/nvim/config-vim/mappings.vim
-
+source ~/.config/nvim/config-vim/files.vim
 " PlugIns
 call plug#begin('~/.config/nvim/plugged')
 "Plug 'phanviet/vim-monokai-pro'
-Plug 'joshdick/onedark.vim'
+"Plug 'connorholyday/vim-snazzy'
+"Plug 'joshdick/onedark.vim'
+Plug 'sonph/onehalf', {'rtp': 'vim/'}
+"Plug 'rakr/vim-one'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
@@ -57,13 +60,16 @@ Plug 'tpope/vim-rhubarb'
 Plug 'mhinz/vim-startify'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'ryanoasis/vim-devicons'
+Plug 'mboughaba/i3config.vim'
+Plug 'norcalli/nvim-colorizer.lua'
 call plug#end()
 
 " PlugIns Configs
-colorscheme onedark
+colorscheme onehalfdark
 set background=dark
 
 source ~/.config/nvim/config-plugin/airline.vim
 source ~/.config/nvim/config-plugin/signify.vim
 source ~/.config/nvim/config-plugin/startup.vim
 source ~/.config/nvim/config-plugin/coc.vim
+lua require 'plug-colorizer'

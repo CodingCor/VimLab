@@ -8,6 +8,8 @@ let g:startify_bookmarks = [
             \ { 'v': '~/.config/nvim/init.vim' },
             \ { 'f': '~/.config/fish/config.fish' },
             \ { 's': '~/.config/scripts' },
+            \ { 'i': '~/.config/i3/config' },
+            \ { 'k': '~/.config/kitty/kitty.conf' },
             \ ]
 let g:startify_custom_header = [
         \ '   _  __     _      ',
